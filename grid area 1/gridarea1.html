@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            height: 500px;
+            width: 80%;
+            margin: auto;
+            display: grid;
+            /* border: 1px solid black; */
+            gap: 10px;
+            grid-template-areas: 
+            "A A A B B B"
+            "C D D D D D"
+            "E E E E E E";
+           /* "A A A B B"
+            "A A A C C"*/
+        }
+        .A{
+            grid-area: A;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+            font-size: xxx-large;
+            display: flex;
+            /* justify-content: center; */
+           align-items: center;
+           /* grid-area: A/B; */
+           padding: 10px;
+
+        }
+        .B{
+            grid-area: B;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+            font-size: xxx-large;
+            display: flex;
+            /* justify-content: ; */
+            padding: 10px;
+           align-items: center ;
+           /* grid-area: C/D/D/D; */
+        }
+        .C{
+            grid-area: C;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+            font-size: xxx-large;
+            display: flex;
+            /* justify-content: center; */
+           align-items: center;
+           /* grid-area: 3/4/4; */
+           padding: 10px;
+        }
+         .D{
+            grid-area: D;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+            font-size: xxx-large;
+            display: flex;
+            /* justify-content: center; */
+           align-items: center;
+           padding: 10px;
+        }
+        .E{
+            grid-area: E;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+            font-size: xxx-large;
+            display: flex;
+            /* justify-content: center; */
+           align-items: center;
+           padding: 10px;
+        } 
+       
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="A">A</div>
+        <div class="B">B</div>
+        <div class="C">C</div>
+        <div class="D">D</div>
+        <div class="E">E</div>
+    </div>
+</body>
+</html>
